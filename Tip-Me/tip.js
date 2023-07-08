@@ -15,7 +15,7 @@ const wei = web3.utils.toWei(amount, "ether")
       method: 'eth_sendTransaction',
       params: [{
         from: accounts[0],
-        to: "0xBcf12550c5A32AB90415495358388F3C1707CEE3",
+        to: "0xBcf12550c5A32AB90415495358388F3C1707CEE3", // Test Account MetaMask. On Sepolia.
         value: web3.utils.toHex(wei)
       }]
     })
