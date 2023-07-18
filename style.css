@@ -84,7 +84,7 @@ header {
 }
 
 h1 {
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "weight" 600;
   font-size: 3rem;
 }
 
@@ -130,12 +130,12 @@ form {
   align-items: center;
 
   display: none;
-  animation: fadein 0.4s 0.8s ease-in-out both;
+  animation: fadeIn 0.4s 0.8s ease-in-out both;
 }
 
 form.has-eth { 
   display: grid;
-  animation: fadein 0.4s 0.8s ease-in-out both;
+  animation: fadeIn 0.4s 0.8s ease-in-out both;
 
 }
 
@@ -154,7 +154,7 @@ form input {
   border: none;
   padding: 8px;
 
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "weight" 600;
   text-align: right;
 
   background: var(--form-back);
